@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="0" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-17T17:05:50Z" name="Default suite" finished-at="2022-12-17T17:05:51Z" duration-ms="1650">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.test_runner56@3b7d3a38]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-12-17T17:05:50Z" name="Default test" finished-at="2022-12-17T17:05:51Z" duration-ms="1650">
+      <class name="Runner.test_runner56">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.test_runner56@3b7d3a38]" started-at="2022-12-17T22:35:50Z" name="setUpClass" finished-at="2022-12-17T22:35:51Z" duration-ms="1014" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@41c07648]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.test_runner56@3b7d3a38]" started-at="2022-12-17T22:35:51Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-17T22:35:51Z" duration-ms="556" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["to test the login with valid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test guru login page]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver1" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver1" is null
+	at definition90.def34.enter_username(def34.java:31)
+	at ✽.Enter Username "user"(file:///H:/spring-selenium-workspace/Cucumberpractice%20TestNG/src/test/resources/login123/demo.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.test_runner56@3b7d3a38]" started-at="2022-12-17T22:35:51Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-17T22:35:51Z" duration-ms="14" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["to test the login with valid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test guru login page]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver1" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver1" is null
+	at definition90.def34.enter_username(def34.java:31)
+	at ✽.Enter Username "admin"(file:///H:/spring-selenium-workspace/Cucumberpractice%20TestNG/src/test/resources/login123/demo.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.test_runner56@3b7d3a38]" started-at="2022-12-17T22:35:51Z" name="tearDownClass" finished-at="2022-12-17T22:35:51Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.test_runner56 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

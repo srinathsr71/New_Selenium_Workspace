@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-12T07:26:44Z" name="Surefire suite" finished-at="2022-11-12T07:31:38Z" duration-ms="294350">
+    <groups>
+    </groups>
+    <test started-at="2022-11-12T07:26:44Z" name="Surefire test" finished-at="2022-11-12T07:31:38Z" duration-ms="294350">
+      <class name="casetestng.casestudy">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:casetestng.casestudy@3eb738bb]" started-at="2022-11-12T12:56:44Z" name="beforetest" finished-at="2022-11-12T12:58:03Z" duration-ms="79810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="test()[pri:0, instance:casetestng.casestudy@3eb738bb]" started-at="2022-11-12T12:58:03Z" name="test" finished-at="2022-11-12T13:01:38Z" duration-ms="214493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- casetestng.casestudy -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
